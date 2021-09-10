@@ -1,0 +1,114 @@
+* {
+     margin: 0;
+     /* padding: 0;  */
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+}
+:root {
+    --first-color: hsl(31, 77%, 52%);
+    --second-color: hsl(184, 100%, 22%);
+    --third-color: hsl(179, 100%, 13%);
+    --fourth-color: hsl(0, 0%, 95%);
+    --fifth-color: hsla(0, 0%, 100%, 0.75);
+}
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.full-content {
+    max-width: 1440px;
+    display: flex;
+    padding: 0 25px;
+}
+.card-content {
+    max-width: 970px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+ .card-item {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 45px;
+}
+.first-item {
+    background: var(--first-color);
+}
+.second-item {
+    background: var(--second-color);
+}
+.third-item {
+    background: var(--third-color);
+}
+.card-item .icon {
+    width: 32%;
+}
+.card-body {
+    margin-top: 40px;
+}
+.card-body h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    color: var(--fourth-color);
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.card-body p {
+    margin-top: 35px;
+    color: var(--fifth-color);
+    font-size: 15px;
+}
+.card-footer {
+    margin-top: 85px;
+    background: white;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+.first-footer {
+    color: var(--first-color);
+}
+.second-footer {
+    color: var(--second-color);
+}
+.third-footer {
+    color: var(--third-color);
+}
+ .card-footer a {
+    display: block;
+    text-decoration: none; 
+    padding: 15px 20px;
+    font-size: 12px; 
+} 
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+ @media screen and (max-width: 768px) {
+    .card-content {
+        max-width: 375px;
+        flex-direction: column;
+        margin-top: 25px;
+    }
+    .card-footer {
+        margin-top: 25px;
+    }
+}  
