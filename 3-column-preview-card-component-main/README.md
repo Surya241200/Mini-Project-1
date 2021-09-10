@@ -15,8 +15,8 @@ This is a simple Html and css projects for newbies and it's gives you a idea abo
 
 ## Deploying project
 
-- [GitHub Pages](https://pages.github.com/)
-- [Netlify](https://www.netlify.com/)
+- [GitHub Pages]()
+- [Netlify](https://dazzling-hopper-6dd495.netlify.app/)
 
 
 ## My process
